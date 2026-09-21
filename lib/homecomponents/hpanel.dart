@@ -1,4 +1,4 @@
-import 'package:catalyst/homecomponents/smaller%20component/panelcol.dart';
+import 'package:catalyst/homecomponents/panelcol.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
