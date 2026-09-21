@@ -295,7 +295,7 @@ class _ResearchWidgetState extends State<ResearchWidget> {
               decoration: BoxDecoration(
                 color: _panelBg,
                 borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: platform.brandColor.withOpacity(0.4), width: 1.5),
+                border: Border.all(color: platform.brandColor.withValues(alpha: 0.4), width: 1.5),
               ),
               child: Material(
                 color: Colors.transparent,
@@ -309,7 +309,7 @@ class _ResearchWidgetState extends State<ResearchWidget> {
                         Container(
                           padding: const EdgeInsets.all(10),
                           decoration: BoxDecoration(
-                            color: platform.brandColor.withOpacity(0.2),
+                            color: platform.brandColor.withValues(alpha: 0.2),
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Icon(platform.icon, color: platform.brandColor, size: 28),

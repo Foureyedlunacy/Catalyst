@@ -411,7 +411,7 @@ pydantic==2.9.2
         return InkWell(
           onTap: () => setState(() => _selectedFile = file),
           child: Container(
-            color: isSelected ? _bg.withOpacity(0.6) : Colors.transparent,
+            color: isSelected ? _bg.withValues(alpha: 0.6) : Colors.transparent,
             padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10),
             child: Row(
               children: [

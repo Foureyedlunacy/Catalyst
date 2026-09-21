@@ -160,7 +160,7 @@ class Dashboard extends StatelessWidget {
 // -----------------------------------------------------------------------------
 
 class DashboardContentWidget extends StatefulWidget {
-  const DashboardContentWidget({Key? key}) : super(key: key);
+  const DashboardContentWidget({super.key});
 
   @override
   State<DashboardContentWidget> createState() => _DashboardContentWidgetState();
@@ -557,7 +557,7 @@ class _DashboardContentWidgetState extends State<DashboardContentWidget> {
       decoration: BoxDecoration(
         color: AppColors.white,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.slateTeal.withOpacity(0.3), width: 1.5),
+        border: Border.all(color: AppColors.slateTeal.withValues(alpha: 0.3), width: 1.5),
         boxShadow: const [
           BoxShadow(
             color: Colors.black12,
@@ -620,7 +620,7 @@ class _DashboardContentWidgetState extends State<DashboardContentWidget> {
                         dense: true,
                         contentPadding: EdgeInsets.zero,
                         leading: CircleAvatar(
-                          backgroundColor: AppColors.amber.withOpacity(0.3),
+                          backgroundColor: AppColors.amber.withValues(alpha: 0.3),
                           child: const Icon(
                             Icons.groups,
                             color: AppColors.slateTeal,
@@ -705,7 +705,7 @@ class _DashboardContentWidgetState extends State<DashboardContentWidget> {
       decoration: BoxDecoration(
         color: AppColors.white,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.slateTeal.withOpacity(0.3), width: 1.5),
+        border: Border.all(color: AppColors.slateTeal.withValues(alpha: 0.3), width: 1.5),
         boxShadow: const [
           BoxShadow(
             color: Colors.black12,
@@ -784,7 +784,7 @@ class _DashboardContentWidgetState extends State<DashboardContentWidget> {
                           padding: const EdgeInsets.all(8),
                           decoration: BoxDecoration(
                             color: msg.isRead
-                                ? AppColors.cream.withOpacity(0.3)
+                                ? AppColors.cream.withValues(alpha: 0.3)
                                 : AppColors.cream,
                             borderRadius: BorderRadius.circular(8),
                             border: Border.all(
@@ -868,7 +868,7 @@ class _DashboardContentWidgetState extends State<DashboardContentWidget> {
           decoration: BoxDecoration(
             color: AppColors.white,
             borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: AppColors.slateTeal.withOpacity(0.2)),
+            border: Border.all(color: AppColors.slateTeal.withValues(alpha: 0.2)),
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1043,7 +1043,7 @@ class _DashboardContentWidgetState extends State<DashboardContentWidget> {
                     padding:
                         const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                     decoration: BoxDecoration(
-                      color: AppColors.amber.withOpacity(0.4),
+                      color: AppColors.amber.withValues(alpha: 0.4),
                       borderRadius: BorderRadius.circular(4),
                     ),
                     child: Text(

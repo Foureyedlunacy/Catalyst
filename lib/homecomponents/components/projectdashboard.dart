@@ -130,7 +130,7 @@ class _ProjectDashboardCardState extends State<ProjectDashboardCard> {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.12),
+            color: Colors.black.withValues(alpha: 0.12),
             blurRadius: 15,
             offset: const Offset(0, 6),
           ),
@@ -271,7 +271,7 @@ class _ProjectDashboardCardState extends State<ProjectDashboardCard> {
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: colorDarkTeal.withOpacity(0.3)),
+                border: Border.all(color: colorDarkTeal.withValues(alpha: 0.3)),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -309,7 +309,7 @@ class _ProjectDashboardCardState extends State<ProjectDashboardCard> {
                                       Color boxColor = Colors.grey.shade200;
                                       if (memberIndex < teamMembers.length && intensity > 0.2) {
                                         Color baseColor = teamMembers[memberIndex]['color'];
-                                        boxColor = baseColor.withOpacity(intensity);
+                                        boxColor = baseColor.withValues(alpha: intensity);
                                       }
 
                                       return Container(

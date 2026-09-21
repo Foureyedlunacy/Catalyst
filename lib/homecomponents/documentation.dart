@@ -273,7 +273,7 @@ class _DocumentationWidgetState extends State<DocumentationWidget> {
                         subtitle: Text(_docs[index].date, style: const TextStyle(color: Colors.white54, fontSize: 11)),
                         leading: Icon(Icons.description, color: isSel ? _accent : Colors.white70),
                         selected: isSel,
-                        selectedTileColor: _bg.withOpacity(0.5),
+                        selectedTileColor: _bg.withValues(alpha: 0.5),
                         onTap: () => setState(() => _selectedDocIndex = index),
                       );
                     },
@@ -355,7 +355,7 @@ class _DocumentationWidgetState extends State<DocumentationWidget> {
                               subtitle: Text(_savedDiagrams[index].date, style: const TextStyle(color: Colors.white54, fontSize: 11)),
                               leading: Icon(Icons.account_tree, color: isSel ? _accent : Colors.white70),
                               selected: isSel,
-                              selectedTileColor: _bg.withOpacity(0.5),
+                              selectedTileColor: _bg.withValues(alpha: 0.5),
                               onTap: () => _loadDiagram(index),
                             );
                           },
@@ -472,7 +472,7 @@ class _DocumentationWidgetState extends State<DocumentationWidget> {
                                       child: _buildShape(node, isNodeSel, isLineSource),
                                     ),
                                   );
-                                }).toList(),
+                                }),
                               ],
                             ),
                           ),
