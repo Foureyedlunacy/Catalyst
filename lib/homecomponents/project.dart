@@ -1,8 +1,8 @@
-import 'package:Catalyst/homecomponents/components/projectdashboard.dart';
-import 'package:Catalyst/homecomponents/documentation.dart';
-import 'package:Catalyst/homecomponents/githubrepo.dart';
-import 'package:Catalyst/homecomponents/outlook.dart';
-import 'package:Catalyst/homecomponents/research.dart';
+import 'package:catalyst/homecomponents/components/projectdashboard.dart';
+import 'package:catalyst/homecomponents/documentation.dart';
+import 'package:catalyst/homecomponents/githubrepo.dart';
+import 'package:catalyst/homecomponents/outlook.dart';
+import 'package:catalyst/homecomponents/research.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
