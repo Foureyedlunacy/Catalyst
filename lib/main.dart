@@ -1,7 +1,7 @@
 
-import 'package:Catalyst/dashboard.dart';
-import 'package:Catalyst/github.dart';
-import 'package:Catalyst/home.dart';
+import 'package:catalyst/dashboard.dart';
+import 'package:catalyst/github.dart';
+import 'package:catalyst/home.dart';
 
 import 'package:catalyst/homecomponents/project.dart';
 import 'package:flutter/material.dart';
