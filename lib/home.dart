@@ -1,7 +1,7 @@
 
-import 'package:Catalyst/hpanel.dart';
-import 'package:Catalyst/hnavbar.dart';
-import 'package:Catalyst/homecomponents/navbarlink.dart';
+import 'package:catalyst/hpanel.dart';
+import 'package:catalyst/hnavbar.dart';
+import 'package:catalyst/homecomponents/navbarlink.dart';
 import 'package:flutter/material.dart';
 //0xFFf7e4cc  champagne/skin
 //0xFF325453  darkslate gray/dark blue
