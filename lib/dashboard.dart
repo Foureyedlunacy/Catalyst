@@ -1,4 +1,4 @@
-import 'package:catalyst/homecomponents/hnavbar.dart';
+import 'package:catalyst/hnavbar.dart';
 import 'package:catalyst/homecomponents/navbarlink.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -143,7 +143,7 @@ class Dashboard extends StatelessWidget {
       body: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: const [
+        children: [
           Hnavbar(),
           // Embedded Dashboard Content
           Expanded(
