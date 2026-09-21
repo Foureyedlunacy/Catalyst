@@ -1,6 +1,7 @@
 
 import 'package:catalyst/homecomponents/h_panel.dart';
 import 'package:catalyst/homecomponents/h_navbar.dart';
+import 'package:catalyst/Homecomponents/smaller%20component/navbarlink.dart';
 import 'package:flutter/material.dart';
 //0xFFf7e4cc  champagne/skin
 //0xFF325453  darkslate gray/dark blue
