@@ -1,5 +1,5 @@
 
-import 'package:catalyst/homecomponents/hnavbar.dart';
+import 'package:catalyst/hnavbar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:flutter/material.dart';
