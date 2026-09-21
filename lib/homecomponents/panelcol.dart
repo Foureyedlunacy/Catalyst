@@ -1,4 +1,4 @@
-import 'package:Catalyst/homecomponents/components/projecttitlecard.dart';
+import 'package:catalyst/homecomponents/components/projecttitlecard.dart';
 import 'package:flutter/material.dart';
 
 class Panelcol extends StatelessWidget {
